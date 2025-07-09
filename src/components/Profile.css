@@ -1,0 +1,60 @@
+.profile-wrapper {
+    padding: 40px;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 24px;
+  }
+  
+  .back-arrow {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .welcome-text {
+    color: #333;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    padding: 24px;
+    border: 2px solid #007bff;         /* Border thickness */
+    border-radius: 12px;               /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 600px;
+    margin: auto;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    /* Two columns */
+    gap: 20px 40px;                    /* Row and column gap */
+  }
+  
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-field label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .profile-field p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  

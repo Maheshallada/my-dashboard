@@ -1,0 +1,50 @@
+.sort-block {
+    width: 120px;
+    padding-left: 6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .sort-label {
+    padding-top: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .angled-arrows {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    font-size: 8px;
+    color: #888;
+    transform-origin: center;
+    transition: color 0.2s ease;
+  }
+  
+  .arrow.up {
+    transform: rotate(-90deg); 
+  }
+  
+  .arrow.down {
+    transform: rotate(-90deg); 
+  }
+  
+  .arrow.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
